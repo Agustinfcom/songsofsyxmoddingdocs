@@ -20,6 +20,8 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+extra_css:
+  - style.css
 
 # Extensions
 markdown_extensions:
