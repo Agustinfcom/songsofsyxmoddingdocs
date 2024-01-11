@@ -1,4 +1,4 @@
-
+<p>
 PLAYABLE: bool,
 PROPERTIES: {
 	HEIGHT: int,
@@ -20,26 +20,26 @@ KING_FILE: assets/text/race/[[king]],
 WORLD_NAME_FILE: assets/text/names/[[world]],
 
 TOURIST: {
-	OCCURENCE: float,
-	CREDITS: float,
-	TOURIST_TEXT_FILE: assets/text/race/[[tourist]],
+OCCURENCE: float,
+CREDITS: float,
+TOURIST_TEXT_FILE: assets/text/race/[[tourist]],
 },
 
 HOME: assets/init/race/[[home]],
 
 TECH: [
-	\*,
+\*,
 ],
 
 PREFERRED: {
-	FOOD: [
-		assets/init/[[resource]] 
-	],
-		STRUCTURE: {
-			MOUNTAIN: 0.2,
-			STONE: 0.7,
-			GRAND: 1,
-			WOOD: 0.5,
-			OUTDOORS: 0.3,
-	},
+FOOD: [
+assets/init/[[resource]]
+],
+STRUCTURE: {
+MOUNTAIN: 0.2,
+STONE: 0.7,
+GRAND: 1,
+WOOD: 0.5,
+OUTDOORS: 0.3,
+},
 },
